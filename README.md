@@ -1,25 +1,4 @@
-Email-Agent/
-│
-├── version0/                ← Basic Email Generator
-│   ├── app.py
-│   ├── .env
-│   ├── requirements.txt
-│   └── README.md
-│
-├── version1/                ← RAG Email Generator
-│   ├── app.py
-│   ├── rag.py
-│   ├── vector_store/
-│   ├── emails/
-│   ├── requirements.txt
-│   └── .env
-│
-├── version2/                ← Email Agent with Memory
-│
-├── version3/                ← Multi-Agent Email Assistant
-│
-└── version4/                ← Web UI + Gmail Integration
-
+![alt text](version_flow.png)
 
 Example input :
 Write an email requesting leave for 3 days due to fever.
