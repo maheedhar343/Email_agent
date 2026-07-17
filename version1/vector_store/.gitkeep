@@ -1,0 +1,8 @@
+This folder is a placeholder.
+
+After running `python ingest.py`, this folder will contain:
+  - index.faiss     (the FAISS vector index)
+  - metadata.json   (chunk text + source mapping)
+
+These files are generated, not hand-written, so they are safe to delete
+and regenerate at any time by re-running ingest.py.

@@ -1,0 +1,9 @@
+# Version 1 — RAG-Powered AI Email Assistant
+# Install with: pip install -r requirements.txt
+
+agno==1.5.5                # Agent framework (successor to PhiData)
+groq==0.11.0                 # Groq API client
+python-dotenv==1.0.1          # Loads config from .env
+faiss-cpu==1.8.0.post1        # Vector similarity search
+sentence-transformers==3.0.1  # Text embedding model
+numpy==1.26.4                  # Vector math, used by faiss/sentence-transformers
